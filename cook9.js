@@ -39,19 +39,19 @@ function allCookies() {
     amSynth.triggerAttackRelease('A5', noSesh / 10);
     console.log(`there are ${noSesh} cookies not marked as session cookies.`);
   });
-  getCookies({ secure: false }, notSecure => {
-    nonSecure = notSecure.length;
-    function mapNotSec(nonSecure, 0, nonSecure, 0, 1) {
-      nonSecure = (nonSecure - 0) / (nonSecure - 0);
-      return 0 + nonSecure * (1 - 0);
-      console.log(d);
-    }
+  // getCookies({ secure: false }, notSecure => {
+  //   nonSecure = notSecure.length;
+  //   function mapNotSec(nonSecure, 0, nonSecure, 0, 1) {
+  //     nonSecure = (nonSecure - 0) / (nonSecure - 0);
+  //     return 0 + nonSecure * (1 - 0);
+  //     console.log(d);
+  //   }
 
-    // const pingPong = new Tone.PingPongDelay('4n', 0.5).toMaster();
-    // let drum = new Tone.MembraneSynth().connect(pingPong);
-    // drum.triggerAttackRelease('C3', '8n');
-    console.log(`there are ${nonSecure} cookies that are not secure.`);
-  });
+  //   // const pingPong = new Tone.PingPongDelay('4n', 0.5).toMaster();
+  //   // let drum = new Tone.MembraneSynth().connect(pingPong);
+  //   // drum.triggerAttackRelease('C3', '8n');
+  //   console.log(`there are ${nonSecure} cookies that are not secure.`);
+  // });
 }
 
 const startBtn = document.querySelector('#start');
